@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.headerText {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.dimensionInput {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.heightContainer, .widthContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.submitImage {
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.submitImage:hover {
+    background-color: rgb(211, 137, 0);
+}
+
+.catContainer {
+    margin-top: 3rem;
+    text-align: center;
+}
